@@ -21,3 +21,35 @@ th {
 td{
     background-color: #efefef;
 }
+.box {
+    height: 100vh;
+    width: 100vw;
+  }
+.container {
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.date{
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 130px;
+    font-weight: bold;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.accommodation{
+    background-color: rgb(201, 199, 199);
+    font-size: 22px;
+    text-align: center;
+}
+
