@@ -49,7 +49,25 @@ td{
 }
 .accommodation{
     background-color: rgb(201, 199, 199);
+    padding: 10px;
     font-size: 22px;
     text-align: center;
 }
+.activity {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.time, .activity-name, .notes{
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.time, .activity-name{
+    border-right: 1px solid rgb(167, 167, 167);
+}
+
+
 
