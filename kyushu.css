@@ -21,10 +21,7 @@ th {
 td{
     background-color: #efefef;
 }
-.box {
-    height: 100vh;
-    width: 100vw;
-  }
+
 .container {
     display: flex;
     background-color: rgb(212, 212, 212);
@@ -62,12 +59,8 @@ td{
 .time, .activity-name, .notes{
     flex: 1;
     padding: 10px;
-    border-bottom: 1px solid rgb(167, 167, 167);
 }
 
 .time, .activity-name{
     border-right: 1px solid rgb(167, 167, 167);
 }
-
-
-
