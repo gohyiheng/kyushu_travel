@@ -44,23 +44,64 @@ td{
     display: flex;
     flex-direction: column;
 }
+
 .accommodation{
     background-color: rgb(201, 199, 199);
     padding: 10px;
     font-size: 22px;
     text-align: center;
 }
+
 .activity {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 10px;
 }
 
-.time, .activity-name, .notes{
+.time, 
+.activity-name,
+.notes{
     flex: 1;
     padding: 10px;
 }
 
-.time, .activity-name{
+.time, 
+.activity-name{
     border-right: 1px solid rgb(167, 167, 167);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .date,
+    .details {
+        border-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .date {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+    }
+
+    .details {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .activity {
+        display: block;
+    }
+
+    .activity .time,
+    .activity .activity-name,
+    .activity .notes {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
