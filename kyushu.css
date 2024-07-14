@@ -52,24 +52,15 @@ td{
     text-align: center;
 }
 
+
 .activity {
-    display: flex;
     flex-wrap: nowrap;
     margin-bottom: 10px;
 }
 
-.time, 
-.activity-name,
-.notes{
-    flex: 1;
+.activity span {
     padding: 10px;
 }
-
-.time, 
-.activity-name{
-    border-right: 1px solid rgb(167, 167, 167);
-}
-
 
 @media (max-width: 768px) {
     .container {
