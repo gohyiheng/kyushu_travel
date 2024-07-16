@@ -1,8 +1,20 @@
-ul{
-    list-style-type: none;
-    font-weight: bolder;
+#fooditems {
+    list-style-type: disc;
     padding-left: 20px;
-    padding-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#fooditems ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#fooditems li {
+    margin-bottom: 10px;
 }
 
 ul ul{
@@ -13,4 +25,8 @@ li {
     margin-bottom: 10px;
 }
 
+#fooditem {
+    font-size: 22px;
+    font-weight: bold;
+}
 
