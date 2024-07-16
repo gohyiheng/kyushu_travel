@@ -1,0 +1,16 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+ul ul{
+    font-weight: normal;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
