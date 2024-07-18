@@ -83,7 +83,7 @@ td{
         content: attr(data-label);
         position: absolute;
         left: 0;
-        width: 60%%;
+        width: 60%;
         padding-left: 8.5px;
         font-weight: bold;
         text-align: left;
