@@ -82,12 +82,11 @@ td{
         padding-left: 50%;
         position: relative;
     }
-
     td::before {
         content: attr(data-label);
         position: absolute;
         left: 0;
-        width: 40%;
+        width: 46%;
         padding-left: 8.5px;
         font-weight: bold;
         text-align: left;
