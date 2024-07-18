@@ -53,7 +53,6 @@ td{
     text-align: center;
 }
 
-
 .activity {
     flex-wrap: nowrap;
     margin-bottom: 10px;
@@ -88,11 +87,11 @@ td{
         content: attr(data-label);
         position: absolute;
         left: 0;
-        width: 50%;
-        padding-left: 10px;
+        width: 40%;
+        padding-left: 8.5px;
         font-weight: bold;
         text-align: left;
-        background-color: #dadada;
+        font-size: 20px;
     }
 
     .container {
