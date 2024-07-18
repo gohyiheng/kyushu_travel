@@ -2,6 +2,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 table, th, td {
@@ -48,7 +49,7 @@ td{
 .accommodation{
     background-color: rgb(201, 199, 199);
     padding: 10px;
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -63,6 +64,36 @@ td{
 }
 
 @media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        width: auto;
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        background-color: #dadada;
+    }
+
     .container {
         display: block;
     }
