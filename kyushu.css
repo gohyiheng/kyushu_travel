@@ -2,7 +2,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 table, th, td {
@@ -49,7 +49,7 @@ td{
 .accommodation{
     background-color: rgb(201, 199, 199);
     padding: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -67,6 +67,7 @@ td{
     table, thead, tbody, th, td, tr {
         width: auto;
         display: block;
+        font-size: 20px;
     }
 
     thead {
