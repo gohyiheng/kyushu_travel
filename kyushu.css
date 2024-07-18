@@ -64,9 +64,6 @@ td{
 }
 
 @media (max-width: 768px) {
-    body{
-        font-size: 24px;
-    }
     table, thead, tbody, th, td, tr {
         width: auto;
         display: block;
