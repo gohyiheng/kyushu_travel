@@ -123,3 +123,117 @@ td{
         box-sizing: border-box;
     }
 }
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #333;
+}
+
+body.dark-mode nav ul li a {
+    color: white;
+}
+
+body.dark-mode button {
+    background-color: #28a745;
+}
+
+body.dark-mode .container {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .date {
+    background-color: #444;
+}
+
+body.dark-mode .accommodation {
+    background-color: #555;
+}
+
+body.dark-mode table {
+    border: 1px solid #555;
+}
+
+body.dark-mode th {
+    background-color: #666;
+}
+
+body.dark-mode td {
+    background-color: #777;
+}
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        height: auto; /* Ensure height is auto */
+        word-wrap: break-word; /* Allow text to wrap */
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        background-color: #dadada;
+        white-space: normal; /* Ensure the label text wraps */
+    }
+
+    body.dark-mode td::before {
+        background-color: #666;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .date,
+    .details {
+        border-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .date {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+    }
+
+    .details {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .activity {
+        display: block;
+    }
+
+    .activity .time,
+    .activity .activity-name,
+    .activity .notes {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
