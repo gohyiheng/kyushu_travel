@@ -24,7 +24,14 @@ td{
 
 .container {
     display: flex;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(164, 164, 164);
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.table-container {
+    display: none;
+    background-color: rgb(164, 164, 164);
     margin: 25px;
     border-radius: 10px;
 }
@@ -45,19 +52,53 @@ td{
 }
 
 .accommodation{
-    background-color: rgb(201, 199, 199);
+    background-color: rgb(172, 172, 172);
     padding: 10px;
     font-size: 20px;
     text-align: center;
 }
 
 .activity {
+    background-color: rgb(181, 181, 181);
     flex-wrap: nowrap;
     margin-bottom: 10px;
 }
 
 .activity span {
     padding: 10px;
+}
+
+.button{
+    text-align: center;
+    background-color: transparent;
+}
+
+.collapsible{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* .collapsible {
+    width: 100%;
+    padding: 24px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s;
+} */
+
+.information-container{
+    display: none;
 }
 
 @media (max-width: 768px) {

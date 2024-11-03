@@ -33,7 +33,7 @@
     <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=19fTkn52aCcwZwjIMCUJAT6DL1P3lJq8&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>   -->
     <div class="day-container">
         <div class="container">
-            <div class="date">Day 1: 8 Jan - Wednesday</div>
+            <div class="date" onclick="toggleDetails(this)">Day 1: 8 Jan - Wednesday</div>
             <div class="details">
                 <div class="accommodation">
                     <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/15GMfhSgTeeybCZWPpaNvBAxpkkpxhs13/view?usp=drive_link' target="_blank">Accommodation</a></h3>
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="table-container">
             <table>
                 <thead>
                     <tr>
@@ -152,7 +152,7 @@
 <!-- ------------------------------------------------------------------------------------------------------------- -->
 <div class="day-container">    
     <div class="container">
-        <div class="date">Day 2: 9 Jan - Thursday</div>
+        <div class="date" onclick="toggleDetails(this)">Day 2: 9 Jan - Thursday</div>
         <div class="details">
             <div class="accommodation">
                 <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/15GMfhSgTeeybCZWPpaNvBAxpkkpxhs13/view?usp=drive_link' target="_blank">Accommodation</a></h3>
@@ -166,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -200,8 +200,9 @@
     </div>
 </div>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
+<div class="day-container">    
     <div class="container">
-        <div class="date">Day 3: 10 Jan - Friday</div>
+        <div class="date" onclick="toggleDetails(this)">Day 3: 10 Jan - Friday</div>
         <div class="details">
             <div class="accommodation">
                 <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/15GMfhSgTeeybCZWPpaNvBAxpkkpxhs13/view?usp=drive_link' target="_blank">Accommodation</a></h3>
@@ -215,7 +216,7 @@
             </div>
         </div>  
     </div>
-    <div class="container">
+    <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -340,9 +341,11 @@
             </tbody>
         </table>
     </div>
+</div>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
+<div class="day-container">
     <div class="container">
-        <div class="date">Day 4: 11 Jan - Saturday</div>
+        <div class="date" onclick="toggleDetails(this)">Day 4: 11 Jan - Saturday</div>
         <div class="details">
             <div class="accommodation">
                 <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/1pMyZG2f_juMga9G9aQ5zRONlT1r-JTuJ/view?usp=drive_link' target="_blank">Accommodation</a></h3>
@@ -365,7 +368,7 @@
             </div>
         </div>  
     </div>
-    <div class="container">
+    <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -489,9 +492,12 @@
             </tbody>
         </table>
     </div>
+</div>    
+
 <!-- ------------------------------------------------------------------------------------------------------------- -->
+<div class="day-container">
     <div class="container">
-        <div class="date">Day 5: 12 Jan - Sunday</div>
+        <div class="date" onclick="toggleDetails(this)">Day 5: 12 Jan - Sunday</div>
         <div class="details">
             <div class="accommodation">
                 <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/1pMyZG2f_juMga9G9aQ5zRONlT1r-JTuJ/view?usp=drive_link' target="_blank">Accommodation</a></h3>
@@ -507,7 +513,7 @@
             </div>
         </div>  
     </div>
-    <div class="container">
+    <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -551,27 +557,29 @@
             </tbody>
         </table>
     </div>
-<!-- ------------------------------------------------------------------------------------------------------------- -->
- TODO: check links
-<div class="container">
-    <div class="date">Day 5: 13 Jan - Monday</div>
-    <div class="details">
-        <div class="accommodation">
-            <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/1pMyZG2f_juMga9G9aQ5zRONlT1r-JTuJ/view?usp=drive_link' target="_blank">Accommodation</a></h3>
-            <p class="accomodation-info"><a href='https://maps.app.goo.gl/GVudHVPJ7bCenCD17'target="_blank">Sotetsu Fresa Inn Hiroshima<br></a></p>
-            <p class="accomodation-info"> Price: ¥18,659</p>
-            <p class="accomodation-info"> Check in: 11 Jan 15:00</p>
-            <p class="accomodation-info"> Check out: 14 Jan 11:00 </p>  
-        </div> 
-        <div class="activity">
-            Itsukushima<br>
-            Itsukushima Shrine<br>
-            Daisho-in temple<br>
-            Mount misen
-        </div>
-    </div>  
 </div>
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+check links
+<div class="day-container">
     <div class="container">
+        <div class="date" onclick="toggleDetails(this)">Day 6: 13 Jan - Monday</div>
+        <div class="details">
+            <div class="accommodation">
+                <h3 class="accomodation-header"><a href='https://drive.google.com/file/d/1pMyZG2f_juMga9G9aQ5zRONlT1r-JTuJ/view?usp=drive_link' target="_blank">Accommodation</a></h3>
+                <p class="accomodation-info"><a href='https://maps.app.goo.gl/GVudHVPJ7bCenCD17'target="_blank">Sotetsu Fresa Inn Hiroshima<br></a></p>
+                <p class="accomodation-info"> Price: ¥18,659</p>
+                <p class="accomodation-info"> Check in: 11 Jan 15:00</p>
+                <p class="accomodation-info"> Check out: 14 Jan 11:00 </p>  
+            </div> 
+            <div class="activity">
+                Itsukushima<br>
+                Itsukushima Shrine<br>
+                Daisho-in temple<br>
+                Mount misen
+            </div>
+        </div>  
+    </div>
+    <div class="table-container">
         <table>
             <thead>
                 <tr>
@@ -651,9 +659,10 @@
             </tbody>
         </table>
     </div>
+</div>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
     <div class="container">
-        <div class="date">Day 7: 14 Jan</div>
+        <div class="date" onclick="toggleDetails(this)">Day 7: 14 Jan</div>
         <div class="details">
         <div class="accommodation">shimonoseki hotel (TBC)<br>
         TBC</div>
@@ -675,7 +684,7 @@
 
 <!-- ------------------------------------------------------------------------------------------------------------- -->
     <div class="container">
-        <div class="date">Day 15: 22 Jan</div>
+        <div class="date" onclick="toggleDetails(this)">Day 15: 22 Jan</div>
         <div class="details">
             <div class="accommodation">
             </div> 
@@ -684,5 +693,12 @@
             </div>
         </div>     
     </div>
+
+    <script>
+        function toggleDetails(dateElement) {
+            const tableContainer = dateElement.closest('.day-container').querySelector('.table-container');
+            tableContainer.style.display = tableContainer.style.display === 'none' ? 'flex' : 'none';
+        }
+    </script>
 </body>
 </html>
