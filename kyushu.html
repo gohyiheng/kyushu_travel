@@ -780,9 +780,64 @@ check links
 <!-- ------------------------------------------------------------------------------------------------------------- -->
 
 <!-- ------------------------------------------------------------------------------------------------------------- -->
-
+<div class="day-container">
+    <div class="container">
+        <div class="date" onclick="toggleDetails(this)">Day 13: 20 Jan</div>
+        <div class="details">
+            <div class="accommodation">
+                <h3 class="accomodation-header"><a href=# target="_blank">Accommodation</a></h3>
+                <p class="accomodation-info"><a href=# target="_blank">Clio Court Hakata Hotel<br></a></p>
+                <p class="accomodation-info"> Price: ¥33,264 </p>
+                <p class="accomodation-info"> Check in: 19 Jan 14:00</p>
+                <p class="accomodation-info"> Check out: 22 Jan 11:00</p> 
+            </div>
+            <div class="activity">
+                Naozoin temple 
+            </div>
+        </div>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Place</th>
+                    <th>Travel time</th>
+                    <th>Arrival Time</th>
+                    <th>Depature time</th>
+                    <th>Opening hours</th>
+                    <th>Price</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Place">Nanzoin temple</td>
+                    <td data-label="Duration">30 mins</td>
+                    <td data-label="Arrival Time">09:00</td>
+                    <td data-label="Depature Time">12:00</td>
+                    <td data-label="Opening hours">09:00 - 16:30</td>
+                    <td data-label="Price">
+                        <p>¥380</p>
+                    </td>
+                    <td data-label="Note">
+                        <p>Nanten Inari Shrine</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
-
+    <div class="container">
+        <div class="date" onclick="toggleDetails(this)">Day 14: 21 Jan</div>
+        <div class="details">
+            <div class="accommodation">
+            </div> 
+            <div class="activity">
+                
+            </div>
+        </div>     
+    </div>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
     <div class="container">
         <div class="date" onclick="toggleDetails(this)">Day 15: 22 Jan</div>
@@ -794,7 +849,7 @@ check links
             </div>
         </div>     
     </div>
-
+<!-- ------------------------------------------------------------------------------------------------------------- -->
     <script>
         function toggleDetails(dateElement) {
             const tableContainer = dateElement.closest('.day-container').querySelector('.table-container');
